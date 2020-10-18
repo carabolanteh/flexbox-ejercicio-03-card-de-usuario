@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+*{  padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #6944ff;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    background-color: ivory;
+    color: #324e63;
+    width: 38%;
+    height: 100%;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.header > .profile {
+    width: 100%;
+    height: auto;
+}
+.header > .profile > .img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > .profile > .img > .icono {
+    width: 180px;
+    height: 180px;
+    border-radius: 600px;
+    margin-top: 20px;
+}
+.header > .profile > .info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header > .profile > .info > .name {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #6944ff
+}
+.header > .profile > .info > .dato1{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #324e63;
+    text-align: center;
+    font-weight: 500;
+} 
+.header > .profile > .info > .dato2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-flex;
+}
+.uno{
+    font-size: 28px;
+    margin-right: 10px;
+}
+.header > .boxes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.header > .boxes > .box{
+    width: 100px;
+    height: auto;
+    text-align: center;
+}
+.header > .boxes > .box > .num{
+    color: rgba(17, 16, 16, 0.815);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.header > .boxes > .box > .content{
+    margin-top: 2px;
+    font-size: 18px;
+}
+.header > .media{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.header > .media > .social{
+    text-align: center;
+    width: 80px;
+}
+.header > .media > .social > .facebook{
+    color: blue;
+    width: 50px;
+    height: 50px;
+} 
+.header > .media > .social > .twitter{
+    color: skyblue;
+    width: 50px;
+    height: 50px;
+} 
+.header > .media > .social > .instagram{
+    background-color: rgb(209, 34, 63);
+    color: papayawhip;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+} 
+.header > .media > .social > .github{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+} 
+.header > .boton{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: rgb(238, 75, 197);
+    border-radius: 25px;
+    border: none;
+    margin: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.strong{
+    font-weight: 700;
+}
